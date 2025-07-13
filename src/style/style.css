@@ -144,3 +144,16 @@ button:disabled {
 .hidden {
     display: none;
 }
+
+@keyframes appear {
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes pulse {
+    50% {
+        opacity: 0.5;
+    }
+}
