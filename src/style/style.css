@@ -1,5 +1,29 @@
-:root {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    background-image: url("../assets/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: top center;
+    background-color: #121214;
+    color: #fff;
+}
+
+body *,
+:root {
+    font-family: "Inter", sans-serif;
+    line-height: 160%;
+}
+
+header {
+    padding-top: 2rem;
+    text-align: center;
+}
+
+header img {
+    width: 15rem;
 }
